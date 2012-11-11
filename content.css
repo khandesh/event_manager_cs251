@@ -1,0 +1,86 @@
+﻿
+@font-face
+{
+font-family: font1;
+src: url('helvatica.ttf');
+}
+body
+{
+	
+	height:100%;
+	background-color: FFFFFF;
+    /*//mozilla*/
+    background: -moz-linear-gradient(top, #000000, #FFFFFF) fixed;
+    /* Chrome/Safari     */
+    background: -webkit-gradient(linear, left top, left bottom, from(#B3B3B3), to(#FFFFFF))fixed;
+    /*IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000000, endColorstr=#FFFFFF)fixed";
+}
+.img
+{
+ margin-left:auto;margin-right:auto;
+ margin-top:20px;
+ width:80%; height:120px;top:0px;
+ background-image:url('cse-iitk.gif');
+ background-repeat:no-repeat;
+ background-position:right; 
+ border-left:1px #262626 solid; border-r:1px #262626 solid; border-top:1px #262626 solid;
+ box-shadow:0px -3px 4px 0px #262626; 
+ background: -webkit-gradient(linear, left top, left bottom, from(#D9D9D9), to(#FFFFFF));
+ background: -moz-linear-gradient(top, #D9D9D9, #FFFFFF);
+ }
+ .img p
+ {
+	font-family:font1;
+	margin-right:30%; position:relative;	font-size:23px;
+	text-shadow: 1.1px 1.1px #333333;
+	text-align:right;
+	
+ }
+.menu_links{
+	width:160px; height:100px; float:left;
+	cursor:pointer; overflow:hidden;
+	text-align:center;	color:#262626; margin-left:0px;margin-top:0px;padding-top:5px;
+	font-family:font1;
+	font-size:15px; font-style:normal;
+	transition:width 3s, height 3s;
+	-moz-transition:width 3s, height 4s; 
+	-webkit-transition:width 3s, height 3s; -webkit-transition-delay:.3s;
+	-o-transition:width 3s, height 3s; 
+	
+}
+.menu_links:hover {
+	color:Black;background-color:#999999;
+	
+}
+
+.menu{
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#D9D9D9));
+	background: -moz-linear-gradient(top, #FFFFFF, #D9D9D9) fixed;
+	 margin-left:auto;margin-right:auto;
+	 width:80%; height:37px;
+	 top:0px;
+	 
+	 border:1px #6A6A6A solid;
+	
+	 overflow:hidden;
+}
+.contents{
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#B2B2B2));
+	background: -moz-linear-gradient(top, #FFFFFF, #B2B2B2) fixed;
+	min-height:400px;
+	width:95.8%; position:relative;  	
+	color:black;text-align:justify;
+	margin-left:auto;margin-right:auto;
+	-moz-border-radius:3px; -webkit-border-radius:3px;border-radius:3px;
+	box-shadow:.2px -.2px 20px #E9E9E9;
+	border:1px #E9E9E9 solid;	 cursor:default;
+	padding-top:2%;padding-left:2%;padding-right:2%; padding-bottom:40px;
+	display:none; overflow:hidden; 
+
+}
+
+
+.1{
+	width:400px; position:relative;
+}

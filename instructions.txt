@@ -1,0 +1,4 @@
+#works on port 8080
+My Ip Address is 172.24.32.48:8080
+index.html is the main startup site 
+after that it redirects you to differnet pages on clicking links.
